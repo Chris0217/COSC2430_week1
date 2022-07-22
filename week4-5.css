@@ -1,0 +1,20 @@
+header {
+    background-color: beige;
+    width: 100%;
+}
+section {
+    display: flex;
+}
+#first {
+    background-color: skyblue;
+}
+#second {
+    background-color:aquamarine;
+}
+#third {
+background-color: lightcyan;
+}
+footer {
+    background-color: beige;
+    width: 100%;
+}

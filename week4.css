@@ -1,0 +1,39 @@
+* {
+    font-family: 'Spectral', serif;
+}
+html {
+    font-size: 12pt;
+}
+main {
+    font-size: 14pt;
+}
+main p {
+    background-color: beige;
+    font-size:1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+a {
+    font-style: italic;
+    font-weight:700;
+    line-height:2rem;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+p span{
+    text-align: center;
+}
+/*span is an inline element. does not apply to text-align: center.*/
+p span {
+    text-align: center;
+    display: block;
+    margin:0 auto;
+}
+
